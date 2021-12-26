@@ -1,4 +1,4 @@
-module.exports = {
+const storyMap = {
   start: {
     text: `The Chief Compiler of the Virtual Universes (CCotVU) is looking for a new New World Conceptor. You receive a convocation for an audience with CCotVU's Personal Android (PA). The convocation states that the Chosen One must be pure of heart, and will receive all necessary training on the job.
 
@@ -259,3 +259,5 @@ module.exports = {
     substitution: true,
   }
 };
+
+module.exports = storyMap
