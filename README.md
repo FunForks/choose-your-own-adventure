@@ -2,9 +2,14 @@
 Proof of concept of a Choose Your Own Adventure game.
 
 ## Your goal is to rewrite the minified `index.js` file in human-readable code, so that it plays the story as well is it does now  (or better).
-<br/>
 
 ### Please feel free to replace the Bell of Truth story with an interactive story of your own.
+
+To play the story as it stands:
+* Clone this repository
+* run `npm install`
+* run `node index`
+* Enter the name of your hero, and then press number keys to make your choices.
 
 ---
 
