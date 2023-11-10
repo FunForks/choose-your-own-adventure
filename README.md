@@ -19,7 +19,7 @@ a similar project, you will need to run:
 
 ```bash
 npm init
-nmp i readline-sync
+npm i readline-sync
 ```
 
 Before running this project, you will need to run:
