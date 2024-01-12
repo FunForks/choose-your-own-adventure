@@ -53,7 +53,7 @@ The story is stored as an object in `storyMap.js`. The object contains a set of 
   * `next`: Must be one of the keys of the main object. If the hero makes this choice, this defines which scene will be shown next.
   * `<other>` is optional and may be used to filter which choices appear, depending on previous choices, which triggered an action.
 
-Only `text` is required. If `choices` are missing, the game will end at the current scene.
+Only `text` is required. If `choices` are missing, or if it contains no items with a `text` prop, the game will end at the current scene.
 
 # Instructions
 **Create your own Choose Your Own Adventure game.**
