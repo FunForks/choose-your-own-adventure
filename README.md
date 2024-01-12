@@ -31,22 +31,22 @@ npm install
 ```
 
 ## Story
-The story is stored as an object in `storyMap.js`. The object contains a set of key-value pairs, where the key is a scene name and the value is an object which may have the following entries:
+The story is stored as an object in `storyMap.json`. The object contains a set of key-value pairs, where the key is a scene name and the value is an object which may have the following entries:
 
 ```javascript
-{ text: `...`,
-  substitute: <undefined | true>,
-  action: <string action name>,
-  choices: [{
-    text:    '...',
-    next:    <string key>,
+{ "text": "...",
+  "substitute": <undefined | truthy string>,
+  "action": <string action name>,
+  "choices": [{
+    "text":    '...',
+    "next":    <string key>,
     <other>: <any type>
   }, ...]
 }
 ```
 
 * `text`: This will be displayed in the Terminal.
-* `substitute` may be set to `true`, to substitute the name that the hero has chosen for the `%s` token in `text`.
+* `substitute` may be set to a truthy value, to substitute the name that the hero has chosen for the `%s` token in `text`.
 * `action`: If present, this will trigger a function to set a variable. You can use this to indicate if your hero has picked up an item or spoken to a specific character, for instance.
 * `choices`: This is a list of the choices available to the hero
   * `text`: Describes the choice
