@@ -1,6 +1,8 @@
 # The Bell of Truth
 Proof of concept of a Choose Your Own Adventure game.
 
+[HTML Demo](https://funforks.github.io/choose-your-own-adventure)
+
 ## Your goal is to rewrite the minified `index.js` file in human-readable code, so that it plays the story as well is it does now  (or better).
 
 ### Please feel free to replace the Bell of Truth story with an interactive story of your own.
