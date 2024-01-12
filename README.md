@@ -1,6 +1,8 @@
 # The Bell of Truth
 Proof of concept of a Choose Your Own Adventure game.
 
+[HTML Demo](https://funforks.github.io/choose-your-own-adventure)
+
 ## Your goal is to rewrite the minified `index.js` file in human-readable code, so that it plays the story as well is it does now  (or better).
 
 ### Please feel free to replace the Bell of Truth story with an interactive story of your own.
@@ -51,7 +53,7 @@ The story is stored as an object in `storyMap.js`. The object contains a set of 
   * `next`: Must be one of the keys of the main object. If the hero makes this choice, this defines which scene will be shown next.
   * `<other>` is optional and may be used to filter which choices appear, depending on previous choices, which triggered an action.
 
-Only `text` is required. If `choices` are missing, the game will end at the current scene.
+Only `text` is required. If `choices` are missing, or if it contains no items with a `text` prop, the game will end at the current scene.
 
 # Instructions
 **Create your own Choose Your Own Adventure game.**
