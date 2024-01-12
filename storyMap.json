@@ -1,11 +1,14 @@
 {
   "start": {
     "text": "\n\n--**--**--**--**--\n\nThe Chief Compiler of the Virtual Universes (CCotVU) is looking for a new New World Conceptor. You receive a convocation for an audience with CCotVU's Personal Android (PA). The convocation states that the Chosen One must be pure of heart, and will receive all necessary training on the job.\n\nTo accept the convocation, you must reply, giving your GitHubOfTheUniverse username.",
-    "action": "enterName"
+    "action": "enterName",
+    "choices": [
+      { "next": "audience" }
+    ]
   },
   "audience": {
     "text": "\nOn the day of the audience, %s, you are 13th and last in a queue of candidates. In the centre of waiting room where you are asked to wait, there grows a File Tree, whose fruit are USB Qeys that give off the most delicious scent of Wisdom.\n\nYou feel tempted to take one of these dangling USB Qeys and hide it in your clothing. What do you do?",
-    "substitution": true,
+    "substitution": "name",
     "choices": [
       {
         "text": "Steal a USB Qey when no-one is watching",
