@@ -11,13 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DCIForks/choose-your-own-adventure.git"
+    "url": "git+https://github.com/FunForks/choose-your-own-adventure.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DCIForks/choose-your-own-adventure/issues"
+    "url": "https://github.com/FunForks/choose-your-own-adventure/issues"
   },
-  "homepage": "https://github.com/DCIForks/choose-your-own-adventure#readme"
+  "homepage": "https://github.com/FunForks/choose-your-own-adventure#readme"
 }
